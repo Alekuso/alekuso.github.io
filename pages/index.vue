@@ -1,6 +1,6 @@
 <template>
   <div>
-    <article class="h-screen">
+    <article class="min-h-screen">
       <div class="w-full h-screen relative flex flex-col justify-center items-center">
         <div class="pb-16">
           <img id="furso" draggable="false" src="~/static/icon.png" width="200" class="opacity-0 relative"/>
