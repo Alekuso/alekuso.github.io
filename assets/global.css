@@ -1,0 +1,55 @@
+body {
+    @apply bg-dark-1 text-white;
+}
+
+#furso {
+    transform: translateY(-30px);
+    animation: fadeIn 2s ease forwards;
+}
+
+#title {
+    opacity: 0;
+    animation: in 0s ease forwards 1s;
+}
+#title path {
+    animation: anim 3s ease forwards 1s;
+}
+
+#title path:nth-child(1){
+    stroke-dasharray: 329;
+    stroke-dashoffset: 329;
+}
+
+#title path:nth-child(2){
+    stroke-dasharray: 172;
+    stroke-dashoffset: 172;
+}
+
+#title path:nth-child(3){
+    stroke-dasharray: 291;
+    stroke-dashoffset: 291;
+}
+
+#title path:nth-child(4){
+    stroke-dasharray: 266;
+    stroke-dashoffset: 266;
+}
+
+@keyframes anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes in {
+    to {
+        opacity: 1;
+    }
+}
