@@ -3,7 +3,7 @@
     <article class="min-h-screen">
       <div class="w-full h-screen relative flex flex-col justify-center items-center">
         <div class="pb-16">
-          <img id="furso" draggable="false" src="~/static/icon.png" width="200" class="opacity-0 relative"/>
+          <img id="furso" draggable="false" src="~/static/icon.png" width="200" alt="Furso" class="opacity-0 relative"/>
           <svg id="title" width="200" height="69" class="asbolute my-4" viewBox="0 0 215 73" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d)">
               <path d="M20.3864 71L24.9886 56.3409H49.0909L53.6932 71H71.8295L48.2727 1.18182H25.8068L2.25 71H20.3864ZM29.0114 43.5227L36.75 18.7727H37.2955L45.0682 43.5227H29.0114Z" stroke="white" stroke-width="2"/>
@@ -47,9 +47,9 @@
       <footer class="w-full select-none relative flex flex-col items-center justify-center pt-32 mb-2">
         <div class="flex items-center justify-center opacity-50">
           <p class="mx-2">Alexou#0001</p>
-          <a class="mx-2" href="https://twitter.com/Alekuso_"><img draggable="false" src="~/static/twitter.svg" style="height: 24px; width: 24px;"/></a>
-          <a class="mx-2" href="https://github.com/Alekuso"><img draggable="false" src="~/static/github.png" style="height: 24px; width: 24px"></a>
-          <a class="mx-2" href="https://puroto.net"><img draggable="false" src="~/static/puroto.png" style="height: 24px; width: 24px"/></a>
+          <a class="mx-2" href="https://twitter.com/Alekuso_"><img draggable="false" src="~/static/twitter.svg" alt="twt" style="height: 24px; width: 24px;"/></a>
+          <a class="mx-2" href="https://github.com/Alekuso"><img draggable="false" src="~/static/github.png" alt="gh" style="height: 24px; width: 24px"></a>
+          <a class="mx-2" href="https://puroto.net"><img draggable="false" src="~/static/puroto.png" alt="prt" style="height: 24px; width: 24px"/></a>
         </div>
         <a href="https://github.com/Alekuso/alekuso.github.io" class="mt-2 opacity-50">Check out the source code!</a>
       </footer>
