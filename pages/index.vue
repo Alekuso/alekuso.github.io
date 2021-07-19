@@ -32,25 +32,26 @@
       </div>
       <div class="flex justify-center items-center mt-32">
         <div class="w-3/6 skills">
-          <h1 class="text-4xl font-bold pl-12">My skills</h1>
+          <h1 class="text-4xl font-bold mb-8 flex text-center justify-center items-center">My skills</h1>
           <li class="list-none font-semibold flex flex-col justify-center items-center mb-8">
-            <p class="text-2xl">General</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-1 float-left h-full rounded" style="width: 90%"></span></span>
+            <p class="text-2xl">General</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-1 float-left h-full rounded" style="width: 92%"></span></span>
           </li>
           <li class="list-none font-semibold flex flex-col justify-center items-center mb-8">
-            <p class="text-2xl">Backend</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-2 float-left h-full rounded" style="width: 85%"></span></span>
+            <p class="text-2xl">Backend</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-2 float-left h-full rounded" style="width: 80%"></span></span>
           </li>
           <li class="list-none font-semibold flex flex-col justify-center items-center mb-8">
             <p class="text-2xl">Frontend</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-3 float-left h-full rounded" style="width: 5%"></span></span>
           </li>
         </div>
       </div>
-      <footer class="w-full select-none relative flex flex-col items-center justify-center pt-32">
+      <footer class="w-full select-none relative flex flex-col items-center justify-center pt-32 mb-2">
         <div class="flex items-center justify-center opacity-50">
           <p class="mx-2">Alexou#0001</p>
-          <a class="mx-2" href="https://twitter.com/Alekuso_">Twitter</a>
-          <a class="mx-2" href="https://github.com/Alekuso">Github</a>
-          <a class="mx-2" href="https://puroto.net">Puroto</a>
+          <a class="mx-2" href="https://twitter.com/Alekuso_"><img draggable="false" src="~/static/twitter.svg" style="height: 24px; width: 24px;"/></a>
+          <a class="mx-2" href="https://github.com/Alekuso"><img draggable="false" src="~/static/github.png" style="height: 24px; width: 24px"></a>
+          <a class="mx-2" href="https://puroto.net"><img draggable="false" src="~/static/puroto.png" style="height: 24px; width: 24px"/></a>
         </div>
+        <a href="https://github.com/Alekuso/alekuso.github.io" class="mt-2 opacity-50">Check out the source code!</a>
       </footer>
     </article>
   </div>
