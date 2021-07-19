@@ -3,7 +3,7 @@
     <article class="min-h-screen">
       <div class="w-full h-screen relative flex flex-col justify-center items-center">
         <div class="pb-16">
-          <img id="furso" draggable="false" src="~/static/icon.png" width="200" alt="Furso" class="opacity-0 relative"/>
+          <img id="furso" draggable="false" src="~/static/icon.png" width="200" height="182" alt="Furso" class="opacity-0 relative"/>
           <svg id="title" width="200" height="69" class="asbolute my-4" viewBox="0 0 215 73" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d)">
               <path d="M20.3864 71L24.9886 56.3409H49.0909L53.6932 71H71.8295L48.2727 1.18182H25.8068L2.25 71H20.3864ZM29.0114 43.5227L36.75 18.7727H37.2955L45.0682 43.5227H29.0114Z" stroke="white" stroke-width="2"/>
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="flex justify-center items-center mt-32">
-        <div class="w-3/6 skills">
+        <ul class="w-3/6 skills">
           <h1 class="text-4xl font-bold mb-8 flex text-center justify-center items-center">My skills</h1>
           <li class="list-none font-semibold flex flex-col justify-center items-center mb-8">
             <p class="text-2xl">General</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-1 float-left h-full rounded" style="width: 92%"></span></span>
@@ -42,7 +42,7 @@
           <li class="list-none font-semibold flex flex-col justify-center items-center mb-8">
             <p class="text-2xl">Frontend</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-3 float-left h-full rounded" style="width: 5%"></span></span>
           </li>
-        </div>
+        </ul>
       </div>
       <footer class="w-full select-none relative flex flex-col items-center justify-center pt-32 mb-2">
         <div class="flex items-center justify-center opacity-50">
