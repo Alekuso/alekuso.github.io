@@ -13,8 +13,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'I\'m Alex, I do stuff, yeehaw' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'theme-color', content: '#141418'},
-      { name:"google-site-verification", content:"0jhBDhWhKzdNE_rjL98bET_E6eDwoM5UsUWBQYrdUM8"}
+      { name: 'theme-color', content: '#141418'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
