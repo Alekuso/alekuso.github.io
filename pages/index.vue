@@ -31,18 +31,18 @@
         </div>
       </div>
       <div class="flex justify-center items-center mt-32">
-        <ul class="w-3/6 skills">
+        <div class="w-3/6 skills">
           <h1 class="text-4xl font-bold mb-8 flex text-center justify-center items-center">My skills</h1>
-          <li class="list-none font-semibold flex flex-col justify-center items-center mb-8">
+          <div class="list-none font-semibold flex flex-col justify-center items-center mb-8">
             <p class="text-2xl">General</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-1 float-left h-full rounded" style="width: 92%"></span></span>
-          </li>
-          <li class="list-none font-semibold flex flex-col justify-center items-center mb-8">
+          </div>
+          <div class="list-none font-semibold flex flex-col justify-center items-center mb-8">
             <p class="text-2xl">Backend</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-2 float-left h-full rounded" style="width: 80%"></span></span>
-          </li>
-          <li class="list-none font-semibold flex flex-col justify-center items-center mb-8">
+          </div>
+          <div class="list-none font-semibold flex flex-col justify-center items-center mb-8">
             <p class="text-2xl">Frontend</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-3 float-left h-full rounded" style="width: 5%"></span></span>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
       <footer class="w-full select-none relative flex flex-col items-center justify-center pt-32 mb-2">
         <div class="flex items-center justify-center opacity-50">
