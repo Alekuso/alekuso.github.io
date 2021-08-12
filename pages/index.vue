@@ -25,22 +25,23 @@
           </svg>
         </div>
       </div>
-      <div class="flex justify-center items-center">
+      <div data-aos="fade" class="flex justify-center items-center">
         <div class="w-9/12">
           <h1 class="text-2xl text-center">I'm Alex, also known as "Alexou" or "Alekuso" on internet.<br>I'm a ██ year old student from Belgium in the province of Liège.<br>I'm a backend (nodejs) developer since 2018.<br>I'm specialized in Discord bots.</h1>
         </div>
       </div>
-      <div class="flex justify-center items-center mt-32">
+      <div data-aos="fade" class="flex justify-center items-center mt-32">
         <div class="w-3/6 skills">
           <h1 class="text-4xl font-bold mb-8 flex text-center justify-center items-center">My skills</h1>
-          <div class="list-none font-semibold flex flex-col justify-center items-center mb-8">
-            <p class="text-2xl">General</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-1 float-left h-full rounded" style="width: 92%"></span></span>
-          </div>
-          <div class="list-none font-semibold flex flex-col justify-center items-center mb-8">
-            <p class="text-2xl">Backend</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-2 float-left h-full rounded" style="width: 80%"></span></span>
-          </div>
-          <div class="list-none font-semibold flex flex-col justify-center items-center mb-8">
-            <p class="text-2xl">Frontend</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-3 float-left h-full rounded" style="width: 1%"></span></span>
+          <div data-aos="fade" data-aos-delay="200">
+            <div class="list-none font-semibold flex flex-col justify-center items-center mb-8">
+              <p class="text-2xl">General</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-1 float-left h-full rounded" style="width: 92%"></span></span>
+            </div>
+            <div class="list-none font-semibold flex flex-col justify-center items-center mb-8">
+              <p class="text-2xl">Backend</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-2 float-left h-full rounded" style="width: 80%"></span></span>
+            </div>
+            <div class="list-none font-semibold flex flex-col justify-center items-center mb-8">
+            </div>
           </div>
         </div>
       </div>
