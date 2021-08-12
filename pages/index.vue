@@ -43,6 +43,7 @@
               <p class="text-2xl">Backend</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-2 float-left h-full rounded" style="width: 80%"></span></span>
             </div>
             <div class="list-none font-semibold flex flex-col justify-center items-center mb-8">
+              <p class="text-2xl">Frontend</p><span class="block w-full bg-dark-3 h-4 rounded"><span class="bg-line-3 float-left h-full rounded" style="width: 15%"></span></span>
             </div>
           </div>
         </div>
