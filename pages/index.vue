@@ -28,8 +28,8 @@
       <div data-aos="fade" class="flex justify-center items-center">
         <div class="w-9/12">
           <h1 class="text-2xl text-center">I'm Alex, also known as "Alexou" or "Alekuso" on internet.</h1>
-          <h1 class="text-2xl text-center m-2">I'm a █ year old student from Belgium.</h1>
-          <h1 class="text-2xl text-center">I'm a node developer since 2018.</h1>
+          <h1 class="text-2xl text-center m-2">I'm a student from Belgium.</h1>
+          <h1 class="text-2xl text-center">I'm a javascript developer since 2018.</h1>
         </div>
       </div>
       <div data-aos="fade" class="flex justify-center items-center mt-32">
