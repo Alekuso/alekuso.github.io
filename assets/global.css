@@ -9,10 +9,11 @@ body {
 
 #title {
     opacity: 0;
-    animation: in 0s ease forwards 1s;
+    animation: in 1s ease forwards 1s;
 }
 #title path {
-    animation: anim 3s ease forwards 1s;
+    animation: anim 2s ease-out forwards 0.5s;
+    stroke: #fff;
 }
 
 #title path:nth-child(1){

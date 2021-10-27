@@ -13,12 +13,12 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'I\'m Alex, I do stuff, yeehaw' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'theme-color', content: '#141418'}
+      { name: 'theme-color', content: '#141418' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css' },
-      { rel: 'stylesheet', href: 'https://unpkg.com/aos@next/dist/aos.css'}
+      { rel: 'stylesheet', href: 'https://unpkg.com/aos@next/dist/aos.css' }
     ]
   },
 
@@ -30,7 +30,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: "@/plugins/aos", mode: "client" }
+    { src: '@/plugins/aos', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -59,27 +59,27 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      "name": "alexou",
-      "short_name": "alexou",
-      "icons": [
+      name: 'alexou',
+      short_name: 'alexou',
+      icons: [
         {
-          "src": "_nuxt/icons/manifest-icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png",
-          "purpose": "maskable any"
+          src: '_nuxt/icons/manifest-icon-192.png',
+          sizes: '192x192',
+          type: 'image/png',
+          purpose: 'maskable any'
         },
         {
-          "src": "_nuxt/icons/manifest-icon-512.png",
-          "sizes": "512x512",
-          "type": "image/png",
-          "purpose": "maskable any"
+          src: '_nuxt/icons/manifest-icon-512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'maskable any'
         }
       ],
-      "start_url": "/?standalone=true",
-      "display": "standalone",
-      "background_color": "#141418",
-      "theme_color": "#141418",
-      "lang": "en"
+      start_url: '/?standalone=true',
+      display: 'standalone',
+      background_color: '#22223b',
+      theme_color: '#22223b',
+      lang: 'en'
     }
   },
 

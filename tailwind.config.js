@@ -16,28 +16,22 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       dark: {
-        1: '#141418',
+        1: '#22223b',
         2: '#23232E',
         3: '#2C2C3A'
       },
       purple: {
-        2: '#5a189a',
-        1: '#8b30bf'
+        2: '#7400b8',
+        1: '#6930c3'
       },
       blue: {
-        1: '#4910a3',
-        1: '#0046AF'
-      },
-      yellow: {
-        1: '#ffd60a'
-      },
-      green: {
-        1: '#32FC80'
+        1: '#03045e',
+        2: '#023e8a'
       },
       line: {
-        1: '#2a9d8f',
-        2: '#e9c46a',
-        3: '#e76f51',
+        1: '#5245e5',
+        2: '#4c2fb9',
+        3: '#45198c'
       }
     }
   },
